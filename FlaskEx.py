@@ -13,11 +13,7 @@ def help():
 
 
 def contact():
-<<<<<<< HEAD
-    return "This is Contact page using  the Flask"
-=======
     return "This is Contact page using Flask"
->>>>>>> 716360fabe1e8601c98f583c4ad891e6f33af32f
 
 
 app.add_url_rule("/contact","contact",contact)
